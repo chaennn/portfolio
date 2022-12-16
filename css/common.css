@@ -331,6 +331,9 @@ section {
 .slide1 .icon dd {
   width: 146px;
   padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slide1 .circles {
@@ -441,8 +444,6 @@ section {
 
 .icon .idea span:first-of-type {
   left: 40%;
-  /* animation: ani2 1s ease-out; */
-  /* animation-name: idea1; */
   animation-delay: 0.5s;
   animation-duration: 1s;
   animation-timing-function: ease-out;
@@ -450,9 +451,6 @@ section {
 
 .icon .idea span:last-of-type {
   left: 60%;
-  /* animation: ani3 1s ease-out;
-  animation-delay: 0.5s; */
-  /* animation-name: idea2; */
   animation-delay: 0.5s;
   animation-duration: 1s;
   animation-timing-function: ease-out;
@@ -480,16 +478,49 @@ section {
 .icon .passion {
   width: 50%;
   height: 100%;
+  position: relative;
 }
 
-.icon .passion img {
+.passion .passion_img {
   width: 80px;
   height: 80px;
-  padding-top: 0.5rem;
-
+  position: relative;
   animation-duration: 2.4s;
   animation-delay: 0.3s;
   animation-timing-function: cubic-bezier(0, 0.2, 0.8, 1);
+}
+
+.passion .passion_img span {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--light-c1);
+  /* border-radius: 50%; */
+  position: absolute;
+}
+
+.passion .passion_img span:first-of-type {
+  border-color: transparent var(--light-c1) var(--light-c1) transparent;
+  border-bottom-right-radius: 90%;
+  top: 0;
+  left: 0;
+}
+.passion .passion_img span:nth-of-type(2) {
+  border-color: transparent transparent var(--light-c1) var(--light-c1);
+  border-bottom-left-radius: 90%;
+  top: 0;
+  right: 0;
+}
+.passion .passion_img span:nth-of-type(3) {
+  border-color: var(--light-c1) var(--light-c1) transparent transparent;
+  border-top-right-radius: 90%;
+  left: 0;
+  bottom: 0;
+}
+.passion .passion_img span:last-of-type {
+  border-color: var(--light-c1) transparent transparent var(--light-c1);
+  border-top-left-radius: 90%;
+  right: 0;
+  bottom: 0;
 }
 
 @keyframes passion {
@@ -667,7 +698,7 @@ section {
   animation-name: idea2;
 }
 
-.swiper-slide-active .passion img {
+.swiper-slide-active .passion_img {
   animation-name: passion;
 }
 .swiper-slide-active .animate {
@@ -838,6 +869,8 @@ section {
 .section4 .cont_icon a:hover {
   transform: translateY(-10px);
 }
+
+/***** 반응형 *****/
 
 @media (max-width: 600px) {
   .toggle_btn p {
