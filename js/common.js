@@ -1,8 +1,6 @@
 //섹션마다 떨어지는 스크롤
-const elm = document.querySelectorAll("section");
+const elm = document.querySelectorAll(".section");
 const elmCount = elm.length;
-const elmHeight = elm.clientHeight;
-console.log(elmHeight);
 
 elm.forEach((item, idx) => {
   item.addEventListener("mousewheel", function (e) {
@@ -37,7 +35,21 @@ elm.forEach((item, idx) => {
 
 //scroll event
 window.addEventListener("scroll", function () {
-  console.log(window.scrollY);
+  let scrollTop = window.scrollY;
+  let ht = document.querySelector(".section1").clientHeight;
+  let $pageCurrent = document.querySelector(".page-current");
+  if (scrollTop >= 0 && scrollTop < ht * 1) {
+    $pageCurrent.innerText = `01`;
+  }
+  if (scrollTop >= ht * 1 && scrollTop < ht * 2) {
+    $pageCurrent.innerText = `02`;
+  }
+  if (scrollTop >= ht * 2 && scrollTop < ht * 3) {
+    $pageCurrent.innerText = `03`;
+  }
+  if (scrollTop >= ht * 3 && scrollTop < ht * 4) {
+    $pageCurrent.innerText = `04`;
+  }
 });
 
 //toggle button
