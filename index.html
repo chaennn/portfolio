@@ -14,9 +14,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/common.css" />
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/common.js" defer></script>
   </head>
   <body>
@@ -33,7 +35,7 @@
         <span class="page-current">01</span>
         <span></span>
         <span class="page-total">04</span>
-        <a href="#sec1">go to top</a>
+        <a href="#sec1" class="goTop_btn">go to top</a>
       </div>
       <div class="section sec1">
         <section class="section1" id="sec1">
@@ -219,10 +221,10 @@
                     <p class="name">토프레소</p>
                   </div>
                   <div class="tags">
-                    <span>기획</span>
-                    <span>디자인</span>
-                    <span>퍼블리싱</span>
-                    <span>반응형</span>
+                    <span>#기획</span>
+                    <span>#디자인</span>
+                    <span>#퍼블리싱</span>
+                    <span>#반응형</span>
                   </div>
                 </div>
               </div>
@@ -239,32 +241,32 @@
                     <p class="name">리얼후르츠</p>
                   </div>
                   <div class="tags">
-                    <span>기획</span>
-                    <span>디자인</span>
-                    <span>퍼블리싱</span>
-                    <span>반응형</span>
+                    <span>#기획</span>
+                    <span>#디자인</span>
+                    <span>#퍼블리싱</span>
+                    <span>#반응형</span>
                   </div>
                 </div>
               </div>
               <div class="box">
-                <div class="thumb">
-                  <img src="./image/mockup/project3.jpg" alt="" />
-                  <a href="#" class="more">
-                    <span>view more </span>
-                  </a>
+              <div class="thumb">
+                <img src="./image/mockup/project3.jpg" alt="" />
+                <a href="#" class="more">
+                  <span>view more </span>
+                </a>
+              </div>
+              <div class="dec">
+                <div class="title">
+                  <p class="project">PROJECT 03</p>
+                  <p class="name">아트허브</p>
                 </div>
-                <div class="dec">
-                  <div class="title">
-                    <p class="project">PROJECT 03</p>
-                    <p class="name">아트허브</p>
-                  </div>
-                  <div class="tags">
-                    <span>기획</span>
-                    <span>디자인</span>
-                    <span>퍼블리싱</span>
-                    <span>반응형</span>
-                  </div>
+                <div class="tags">
+                  <span>#기획</span>
+                  <span>#디자인</span>
+                  <span>#퍼블리싱</span>
+                  <span>#반응형</span>
                 </div>
+              </div>
               </div>
               <div class="box">
                 <div class="thumb">
@@ -279,8 +281,8 @@
                     <p class="name">프로젝트4</p>
                   </div>
                   <div class="tags">
-                    <span>web</span>
-                    <span>mobile</span>
+                    <span>#web</span>
+                    <span>#mobile</span>
                   </div>
                 </div>
               </div>
@@ -293,12 +295,12 @@
           <div class="inner">
             <h2>Contact</h2>
             <div class="sec4_inner">
-              <p class="text_con">
-                진화하는 문화에 두려워하지 않는, <br />
-                문화를 만들어가는, <br />
-                실패를 공감하고 성공을 나누는, <br />
-                동료와 함께 성장하는게 좋은 팀플레이어
-              </p>
+              <div class="text_con">
+                <div data-aos="fade-up" data-aos-duration="1500">진화하는 문화에 두려워하지 않는, </div>
+                <div data-aos="fade-up" data-aos-duration="2000">문화를 만들어가는,</div>
+                <div data-aos="fade-up" data-aos-duration="2500">실패를 공감하고 성공을 나누는,</div>
+                <div data-aos="fade-up" data-aos-duration="3000">동료와 함께 성장하는게 좋은 팀플레이어</div>
+              </div>
               <div class="contact">
                 <a href="mailto:girmn22@gmail.com">girmn22@gmail.com</a>
                 <div class="cont_icon">
@@ -308,9 +310,12 @@
                   <a href="mailto:girmn22@gmail.com">
                     <img src="./image/icon/Slack__Logo.svg" alt="" />
                   </a>
-                  <a href="https://github.com/chaennn"
+                  <a href="https://github.com/chaennn" class="gitLogo darkV on"
                     ><img src="./image/icon/github_white.png" alt=""
-                  /></a>
+                  />
+                  </a>
+                  <a href="https://github.com/chaennn" class="gitLogo lightV">
+                  <img src="./image/icon/Font_Awesome_5_brands_github.png" alt=""></a>
                 </div>
               </div>
             </div>
