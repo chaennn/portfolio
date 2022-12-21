@@ -1,38 +1,3 @@
-// //섹션마다 떨어지는 스크롤
-// const elm = document.querySelectorAll(".section");
-// const elmCount = elm.length;
-
-// elm.forEach((item, idx) => {
-//   item.addEventListener("mousewheel", function (e) {
-//     e.preventDefault();
-//     let delta = 0;
-//     if (e.wheelDelta) {
-//       delta = e.wheelDelta;
-//     }
-//     let moveTop = window.scrollY;
-//     let elmSelector = elm[idx];
-
-//     if (delta < 0) {
-//       if (elmSelector !== elmCount - 1) {
-//         try {
-//           moveTop =
-//             window.pageYOffset +
-//             elmSelector.nextElementSibling.getBoundingClientRect().top;
-//         } catch (e) {}
-//       }
-//     } else {
-//       if (elmSelector !== 0) {
-//         try {
-//           moveTop =
-//             window.pageYOffset +
-//             elmSelector.previousElementSibling.getBoundingClientRect().top;
-//         } catch (e) {}
-//       }
-//     }
-//     window.scrollTo({ top: moveTop });
-//   });
-// });
-
 //scroll event
 window.addEventListener("scroll", function () {
   let scrollTop = window.scrollY;

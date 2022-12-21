@@ -912,6 +912,8 @@ section {
   margin-right: 1rem;
   display: inline-block;
   transition: 0.3s;
+  border: 1px solid red;
+  cursor: pointer;
 }
 
 .section4 .cont_icon a:hover {

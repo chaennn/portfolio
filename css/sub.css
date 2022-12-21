@@ -10,17 +10,18 @@ html {
   scroll-behavior: smooth;
 }
 
-h2 {
-  font-size: 36px;
-  font-weight: bold;
+body {
+  color: var(--dark-c1);
+  -ms-overflow-style: none;
 }
-a {
-  /* color: var(--light-c1); */
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .inner {
-  width: calc(100% - 80px);
-  height: calc(100% - 80px);
+  width: calc(100% - 60px);
+  max-width: 1600px;
   margin: auto;
 }
 
@@ -37,7 +38,7 @@ header {
 }
 
 footer {
-  border: 2px solid salmon;
+  /* border: 2px solid salmon; */
 }
 
 .foot_top .inner {
@@ -70,11 +71,16 @@ footer {
   border-radius: 50%;
   margin: auto;
   display: block;
+  transition: 0.3s;
 }
 
 .fullpage-nav .goTop_btn {
   font-weight: bold;
   text-align: center;
+}
+
+.fullpage-nav:hover span {
+  transform: translateY(-30%);
 }
 
 footer .foot_bottom {
@@ -128,44 +134,134 @@ footer .foot_bottom .next_page {
 
 /* 토프레소 */
 header.pro1 {
-  background: url(../image/topresso/sub_visual03.jpg) no-repeat top left;
+  background: url(../image/topresso/top_banner.jpg) no-repeat top left;
   background-size: cover;
   display: flex;
   align-items: center;
-  padding-left: 5%;
+  padding-left: 10%;
 }
 
 .pro1 .banner_txt {
-  border: 1px solid red;
   width: calc(100% / 2);
-  /* height: 100%; */
 }
 
 header.pro1 .title {
-  border: 1px solid blue;
+  margin-bottom: 2rem;
+  font-size: 60px;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+}
+
+header.pro1 .title span {
+  padding: 1.3rem 1.5rem;
+  font-size: 1rem;
+  font-weight: normal;
 }
 
 header.pro1 .dec {
-  border: 2px solid slateblue;
+  margin-bottom: 15%;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
 }
 
-.pro1 .style_guide {
-  border: 1px solid palegreen;
-  width: 80%;
+header.pro1 .dec ul {
+  margin-right: 5%;
+}
+
+header.pro1 .dec p {
+  margin-bottom: 22px;
+  font-size: 0.9rem;
+  color: #4c4c4c;
+}
+
+header.pro1 .dec li {
+  margin-bottom: 0.2rem;
+}
+
+header.pro1 .dec li {
+  font-size: 1rem;
+}
+
+header.pro1 .site_con a {
+  padding: 0.6rem 2rem;
+  border: 1px solid var(--dark-c1);
+  border-radius: 30px;
+  margin-right: 5%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+header.pro1 .site_con a:hover {
+  background-color: var(--dark-c1);
+  color: var(--light-c1);
+}
+
+/* contents! */
+.contents.pro1 {
+  background-color: #dee7f4;
+  position: relative;
+  z-index: 1;
+}
+
+.contents.pro1::before {
+  content: "";
+  width: 35vw;
+  height: 35vw;
+  border-radius: 50%;
+  background-color: #ffb57f;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  z-index: -1;
+  animation: orange 20s linear infinite none;
+}
+
+@keyframes orange {
+  0% {
+    top: 40%;
+    left: -40%;
+  }
+  100% {
+    top: 40%;
+    left: 100%;
+  }
+}
+
+.contents.pro1 .txt_con {
+  width: 65%;
+  padding-top: 100px;
   margin: auto;
+  text-align: center;
 }
 
-.pro1 .style_guide h3 {
+.contents.pro1 .txt_con .big_txt {
+  font-size: 2.4rem;
+  font-weight: lighter;
+}
+
+.contents.pro1 .txt_con .sub_txt {
+  margin-top: 60px;
+}
+
+.pro1 h3 {
   font-weight: bold;
   font-size: 36px;
 }
 
-.pro1 .style_guide h4 {
+.pro1 h4 {
+  margin-bottom: 1rem;
   font-weight: bold;
   font-size: 20px;
+}
+
+.pro1 .style_guide {
+  margin-top: 120px;
+}
+
+.pro1 .style_guide h3 {
+  margin-bottom: 100px;
 }
 
 .pro1 .style_guide .colors_palett {
@@ -176,9 +272,141 @@ header.pro1 .dec {
 .pro1 .style_guide .typography {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-footer .pro1 {
+.pro1 .style_guide .colors_palett {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pro1 .style_guide .color_txt {
+  width: 25%;
+}
+
+.pro1 .style_guide .color_con {
+  width: 65%;
+}
+
+.pro1 .style_guide .typography {
+  margin-top: 82px;
+}
+
+.pro1 .style_guide .typo_txt {
+  width: 25%;
+}
+
+.pro1 .style_guide .typo_txt p:nth-of-type(2) {
+  margin-top: 1.2rem;
+}
+
+.pro1 .style_guide .typo_con {
+  width: 50%;
+}
+
+.pro1 .renewal {
+  margin: auto;
+  margin-top: 195px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.pro1 .renewal .renewal_bg {
+  margin-bottom: 80px;
+}
+
+.pro1 .renewal .renewal_txt {
+  width: 35%;
+}
+
+.pro1 .renewal h3 {
+  margin-bottom: 42px;
+}
+
+footer.pro1 {
   background-color: white;
   color: var(--dark-c1);
+}
+
+/***** 반응형 *****/
+
+@media (max-width: 600px) {
+  /* 토프레소 */
+
+  header.pro1 {
+    background: url(../image/topresso/top_banner_m.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  }
+
+  @keyframes orange {
+    0% {
+      top: 60%;
+      left: -40%;
+    }
+    100% {
+      top: 60%;
+      left: 100%;
+    }
+  }
+
+  .pro1 .banner_txt {
+    width: 100%;
+  }
+
+  .contents.pro1 .txt_con {
+    width: 100%;
+  }
+
+  .contents.pro1 .txt_con .sub_txt {
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    word-break: keep-all;
+  }
+
+  .pro1 .style_guide h3 {
+    margin-bottom: 50px;
+  }
+
+  .pro1 .style_guide .colors_palett {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pro1 .style_guide .colors_palett > * {
+    width: 100%;
+  }
+
+  .pro1 .style_guide .color_con {
+    margin-top: 40px;
+  }
+
+  .pro1 .style_guide .typography {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pro1 .style_guide .typography > * {
+    width: 100%;
+  }
+
+  .pro1 .style_guide .typo_txt {
+    padding-right: 20%;
+  }
+
+  .pro1 .style_guide .typo_con {
+    margin-top: 40px;
+  }
+
+  .pro1 .renewal {
+    margin-top: 95px;
+  }
+
+  .pro1 .renewal .renewal_txt {
+    width: 100%;
+    margin-bottom: 40px;
+  }
 }
