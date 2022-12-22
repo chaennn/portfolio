@@ -80,6 +80,11 @@ $switch.addEventListener("click", function () {
   git_icon2.classList.toggle("on");
 });
 
+//우클릭 방지
+document.oncontextmenu = function () {
+  return false;
+};
+
 var swiper = new Swiper(".slide1", {
   slidesPerView: "auto",
   centeredSlides: true,
