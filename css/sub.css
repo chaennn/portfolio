@@ -331,11 +331,11 @@ footer.pro1 .foot_bottom .next_page {
 
 /* 아트허브 */
 
-header.pro2 {
+header.pro3 {
   background: url(../image/arthub/arthub_head.jpg) no-repeat top left;
 }
 
-header.pro2::before {
+header.pro3::before {
   content: "";
   width: 50%;
   height: 100%;
@@ -346,31 +346,31 @@ header.pro2::before {
   z-index: -1;
 }
 
-.pro2 .banner_txt {
+.pro3 .banner_txt {
   color: var(--light-c1);
 }
 
-.pro2 .dec p {
+.pro3 .dec p {
   color: #fdfdfd;
 }
 
-.pro2 .site_con a {
+.pro3 .site_con a {
   border: 1px solid var(--light-c1);
   color: var(--light-c1);
 }
 
-.pro2 .site_con a:hover {
+.pro3 .site_con a:hover {
   background-color: var(--light-c1);
   color: var(--dark-c1);
 }
 
 /* sub2 contents! */
-.contents.pro2 h3 {
+.contents.pro3 h3 {
   font-size: 2.2rem;
   font-weight: bold;
 }
 
-.contents.pro2 .txt_con {
+.contents.pro3 .txt_con {
   padding-top: 130px;
   padding-bottom: 100px;
   display: flex;
@@ -379,21 +379,21 @@ header.pro2::before {
   word-break: keep-all;
 }
 
-.contents.pro2 .big_txt {
+.contents.pro3 .big_txt {
   width: 45%;
   font-size: 2.2rem;
   font-weight: lighter;
 }
 
-.contents.pro2 .sub_txt {
+.contents.pro3 .sub_txt {
   width: 45%;
 }
 
-.contents.pro2 .sub_txt p {
+.contents.pro3 .sub_txt p {
   margin-bottom: 1rem;
 }
 
-.contents.pro2 .style_guide {
+.contents.pro3 .style_guide {
   padding-top: 100px;
   background: rgb(237, 240, 246);
   background: linear-gradient(
@@ -403,47 +403,47 @@ header.pro2::before {
   );
 }
 
-.contents.pro2 .style_guide h3 {
+.contents.pro3 .style_guide h3 {
   width: 100%;
   margin-bottom: 80px;
   text-align: center;
 }
 
-.contents.pro2 .style_guide h4 {
+.contents.pro3 .style_guide h4 {
   margin-bottom: 2.2rem;
   font-size: 1.4rem;
   font-weight: bold;
 }
 
-.contents.pro2 .style_guide .style_con {
+.contents.pro3 .style_guide .style_con {
   display: flex;
   justify-content: space-evenly;
 }
 
-.contents.pro2 .style_guide .style_con:first-of-type {
+.contents.pro3 .style_guide .style_con:first-of-type {
   margin-bottom: 70px;
 }
 
-.contents.pro2 .style_guide .style_con > * {
+.contents.pro3 .style_guide .style_con > * {
   width: 30%;
 }
 
-.contents.pro2 .colors_palett ul {
+.contents.pro3 .colors_palett ul {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 
-.contents.pro2 .colors_palett h4 {
+.contents.pro3 .colors_palett h4 {
   width: 100%;
 }
 
-.contents.pro2 .color_con {
+.contents.pro3 .color_con {
   padding-right: 5%;
   text-align: center;
 }
 
-.contents.pro2 .color_con span {
+.contents.pro3 .color_con span {
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -451,62 +451,62 @@ header.pro2::before {
   display: inline-block;
 }
 
-.contents.pro2 .color_con:first-of-type span {
+.contents.pro3 .color_con:first-of-type span {
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-.contents.pro2 .color_con:nth-of-type(2) span {
+.contents.pro3 .color_con:nth-of-type(2) span {
   background-color: #225099;
 }
 
-.contents.pro2 .color_con:last-of-type span {
+.contents.pro3 .color_con:last-of-type span {
   background-color: #000;
 }
 
-.contents.pro2 .style_guide .grid_width {
+.contents.pro3 .style_guide .grid_width {
   width: 50%;
   margin: auto;
   margin-top: 140px;
 }
 
-.contents.pro2 .renewal {
+.contents.pro3 .renewal {
   margin-top: 144px;
   text-align: center;
 }
-.contents.pro2 .renewal h3 {
+.contents.pro3 .renewal h3 {
   color: #225099;
 }
 
-.contents.pro2 .renewal .detail_img {
+.contents.pro3 .renewal .detail_img {
   width: 90%;
   margin: auto;
 }
 
-.contents.pro2 .sub_re .inner {
+.contents.pro3 .sub_re .inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.contents.pro2 .sub_re h3 {
+.contents.pro3 .sub_re h3 {
   margin-bottom: 120px;
   color: #225099;
 }
 
-.contents.pro2 .sub_re p {
+.contents.pro3 .sub_re p {
   margin-bottom: 1rem;
 }
 
-footer.pro2 {
+footer.pro3 {
   background-color: #225099;
   color: var(--light-c1);
 }
 
-footer.pro2 .fullpage-nav a {
+footer.pro3 .fullpage-nav a {
   color: var(--light-c1);
 }
 
-footer.pro2 .fullpage-nav span {
+footer.pro3 .fullpage-nav span {
   border: 1px solid var(--light-c1);
 }
 
@@ -606,7 +606,7 @@ footer .foot_bottom .next_page {
   }
 
   /* 아트허브 */
-  header.pro2::before {
+  header.pro3::before {
     content: "";
     width: 100%;
     height: 100%;
@@ -617,34 +617,34 @@ footer .foot_bottom .next_page {
     z-index: -1;
   }
 
-  .contents.pro2 .txt_con {
+  .contents.pro3 .txt_con {
     padding-top: 130px;
     padding-bottom: 80px;
     display: flex;
     flex-direction: column;
   }
 
-  .contents.pro2 .big_txt {
+  .contents.pro3 .big_txt {
     width: 100%;
     margin-bottom: 40px;
     font-size: 2rem;
     font-weight: lighter;
   }
 
-  .contents.pro2 .sub_txt {
+  .contents.pro3 .sub_txt {
     width: 100%;
     text-align: left;
   }
 
-  .contents.pro2 .style_guide .style_con {
+  .contents.pro3 .style_guide .style_con {
     justify-content: space-between;
   }
 
-  .contents.pro2 .style_guide .style_con > * {
+  .contents.pro3 .style_guide .style_con > * {
     width: calc(100% / 2);
   }
 
-  .contents.pro2 .color_con span {
+  .contents.pro3 .color_con span {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -652,16 +652,16 @@ footer .foot_bottom .next_page {
     display: inline-block;
   }
 
-  .contents.pro2 .style_guide .grid_width {
+  .contents.pro3 .style_guide .grid_width {
     width: 100%;
   }
 
-  .contents.pro2 .sub_re .inner {
+  .contents.pro3 .sub_re .inner {
     display: flex;
     flex-direction: column-reverse;
   }
 
-  .contents.pro2 .sub_re h3 {
+  .contents.pro3 .sub_re h3 {
     margin-top: 80px;
     margin-bottom: 40px;
   }
