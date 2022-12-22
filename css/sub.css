@@ -4,6 +4,13 @@
   font-family: "Montserrat", "Noto Sans KR", sans-serif;
   --dark-c1: #222;
   --light-c1: #fff;
+  --dark-point-c: #cd68f3;
+  --light-point-c: #64ddf8;
+}
+
+::selection {
+  background-color: var(--light-point-c);
+  color: var(--dark-point-c);
 }
 
 html {
@@ -11,12 +18,36 @@ html {
 }
 
 body {
+  cursor: none;
   color: var(--dark-c1);
-  -ms-overflow-style: none;
 }
 
-body::-webkit-scrollbar {
-  display: none;
+.wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.cursor {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--dark-point-c);
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 999;
+}
+
+.cursor.style1 {
+  border: transparent;
+  background-color: var(--light-point-c);
+  backdrop-filter: hue-rotate(90deg);
+}
+
+a {
+  cursor: none;
 }
 
 .inner {
@@ -169,6 +200,22 @@ footer .foot_bottom a {
   top: 0;
   left: 0;
   transition: 1s;
+}
+
+footer .prev_page a::before {
+  content: "PREV PROJECT";
+  color: var(--light-c1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+footer .next_page a::before {
+  content: "PREV PROJECT";
+  color: var(--light-c1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 footer .foot_bottom a:hover {
