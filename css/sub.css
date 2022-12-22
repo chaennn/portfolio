@@ -33,10 +33,69 @@ img {
   overflow: hidden;
 }
 
+/* 공통 header */
 header {
   height: 700px;
 }
 
+header .banner_txt {
+  width: calc(100% / 2);
+}
+
+header .title {
+  margin-bottom: 2rem;
+  font-size: 60px;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+}
+
+header .title span {
+  padding: 1.3rem 1.5rem;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+header .dec {
+  margin-bottom: 15%;
+  display: flex;
+  align-items: flex-start;
+}
+
+header .dec ul {
+  margin-right: 5%;
+}
+
+header .dec p {
+  margin-bottom: 22px;
+  font-size: 0.9rem;
+  color: #4c4c4c;
+}
+
+header .dec li {
+  margin-bottom: 0.2rem;
+}
+
+header .dec li {
+  font-size: 1rem;
+}
+
+header .site_con a {
+  padding: 0.6rem 2rem;
+  border: 1px solid var(--dark-c1);
+  border-radius: 30px;
+  margin-right: 5%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+header .site_con a:hover {
+  background-color: var(--dark-c1);
+  color: var(--light-c1);
+}
+
+/* 공통 footer */
 .foot_top .inner {
   height: 130px;
   display: flex;
@@ -118,16 +177,6 @@ footer .foot_bottom span {
   z-index: 1;
 }
 
-footer .foot_bottom .prev_page {
-  background: url(../image/mockup/project3.jpg) no-repeat center;
-  background-size: cover;
-}
-
-footer .foot_bottom .next_page {
-  background: url(../image/mockup/project2.jpg) no-repeat center;
-  background-size: cover;
-}
-
 /* 토프레소 */
 header.pro1 {
   background: url(../image/topresso/top_banner.jpg) no-repeat top left;
@@ -135,63 +184,6 @@ header.pro1 {
   display: flex;
   align-items: center;
   padding-left: 10%;
-}
-
-.pro1 .banner_txt {
-  width: calc(100% / 2);
-}
-
-header.pro1 .title {
-  margin-bottom: 2rem;
-  font-size: 60px;
-  font-weight: bold;
-  display: flex;
-  align-items: flex-end;
-}
-
-header.pro1 .title span {
-  padding: 1.3rem 1.5rem;
-  font-size: 1rem;
-  font-weight: normal;
-}
-
-header.pro1 .dec {
-  margin-bottom: 15%;
-  display: flex;
-  align-items: flex-start;
-}
-
-header.pro1 .dec ul {
-  margin-right: 5%;
-}
-
-header.pro1 .dec p {
-  margin-bottom: 22px;
-  font-size: 0.9rem;
-  color: #4c4c4c;
-}
-
-header.pro1 .dec li {
-  margin-bottom: 0.2rem;
-}
-
-header.pro1 .dec li {
-  font-size: 1rem;
-}
-
-header.pro1 .site_con a {
-  padding: 0.6rem 2rem;
-  border: 1px solid var(--dark-c1);
-  border-radius: 30px;
-  margin-right: 5%;
-  font-size: 1.3rem;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-header.pro1 .site_con a:hover {
-  background-color: var(--dark-c1);
-  color: var(--light-c1);
 }
 
 /* contents! */
@@ -323,6 +315,197 @@ header.pro1 .site_con a:hover {
 footer.pro1 {
   background-color: white;
   color: var(--dark-c1);
+}
+
+footer.pro1 .foot_bottom .prev_page {
+  background: url(../image/mockup/project3.jpg) no-repeat center;
+  background-size: cover;
+}
+
+footer.pro1 .foot_bottom .next_page {
+  background: url(../image/mockup/project2.jpg) no-repeat center;
+  background-size: cover;
+}
+
+/* 아트허브 */
+header.pro2 {
+  background: url(../image/arthub/arthub_head.jpg) no-repeat top left;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  position: relative;
+  z-index: 1;
+}
+
+header.pro2::before {
+  content: "";
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.pro2 .banner_txt {
+  color: var(--light-c1);
+}
+
+.pro2 .dec p {
+  color: #fdfdfd;
+}
+
+.pro2 .site_con a {
+  border: 1px solid var(--light-c1);
+  color: var(--light-c1);
+}
+
+.pro2 .site_con a:hover {
+  background-color: var(--light-c1);
+  color: var(--dark-c1);
+}
+
+/* sub2 contents! */
+.contents.pro2 h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.contents.pro2 .txt_con {
+  padding-top: 130px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contents.pro2 .big_txt {
+  font-size: 2.2rem;
+  font-weight: lighter;
+}
+
+.contents.pro2 .sub_txt p {
+  margin-bottom: 1rem;
+}
+
+.contents.pro2 .style_guide {
+  padding-top: 100px;
+  background: rgb(237, 240, 246);
+  background: linear-gradient(
+    180deg,
+    rgba(237, 240, 246, 1) 0%,
+    rgba(237, 240, 246, 0) 100%
+  );
+}
+
+.contents.pro2 .style_guide h3 {
+  width: 100%;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.contents.pro2 .style_guide h4 {
+  margin-bottom: 2.2rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.contents.pro2 .style_guide .style_con {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contents.pro2 .style_guide .style_con:first-of-type {
+  margin-bottom: 70px;
+}
+
+.contents.pro2 .style_guide .style_con > * {
+  width: 30%;
+}
+
+.contents.pro2 .colors_palett ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.contents.pro2 .colors_palett h4 {
+  width: 100%;
+}
+
+.contents.pro2 .color_con {
+  padding-right: 5%;
+  text-align: center;
+}
+
+.contents.pro2 .color_con span {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.contents.pro2 .color_con:nth-of-type(2) span {
+  background-color: #225099;
+}
+
+.contents.pro2 .color_con:last-of-type span {
+  background-color: #000;
+}
+
+.contents.pro2 .style_guide .grid_width {
+  width: 50%;
+  margin: auto;
+  margin-top: 140px;
+}
+
+.contents.pro2 .renewal {
+  margin-top: 144px;
+  text-align: center;
+}
+.contents.pro2 .renewal h3 {
+  color: #225099;
+}
+
+.contents.pro2 .renewal .detail_img {
+  width: 90%;
+  margin: auto;
+}
+
+.contents.pro2 .sub_re .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contents.pro2 .sub_re h3 {
+  margin-bottom: 120px;
+  color: #225099;
+}
+
+footer.pro2 {
+  background-color: #225099;
+  color: var(--light-c1);
+}
+
+footer.pro2 .fullpage-nav a {
+  color: var(--light-c1);
+}
+
+footer.pro2 .fullpage-nav span {
+  border: 1px solid var(--light-c1);
+}
+
+footer .foot_bottom .prev_page {
+  background: url(../image/mockup/project2.jpg) no-repeat center;
+  background-size: cover;
+}
+
+footer .foot_bottom .next_page {
+  background: url(../image/mockup/project1.jpg) no-repeat center;
+  background-size: cover;
 }
 
 /***** 반응형 *****/
