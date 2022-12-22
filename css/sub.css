@@ -37,10 +37,6 @@ header {
   height: 700px;
 }
 
-footer {
-  /* border: 2px solid salmon; */
-}
-
 .foot_top .inner {
   height: 130px;
   display: flex;
