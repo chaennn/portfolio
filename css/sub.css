@@ -78,8 +78,10 @@ header {
 }
 
 .home_btn {
-  width: 100px;
+  /* border: 1px solid red; */
+  width: 80px;
   height: 40px;
+  font-size: 0.8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -470,6 +472,10 @@ header.pro3::before {
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+header.pro3 .home_btn {
+  color: var(--light-c1);
 }
 
 .pro3 .banner_txt {
