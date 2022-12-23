@@ -142,6 +142,7 @@ header {
 
 .home_btn:hover .home_arrow {
   animation-play-state: paused;
+  transform: rotate(0deg);
 }
 
 .home_btn:hover span:nth-of-type(2) {
@@ -313,7 +314,8 @@ footer .foot_bottom span {
 
 /* 토프레소 */
 header.pro1 {
-  background: url(../image/topresso/top_banner.jpg) no-repeat top left;
+  background: url(../image/topresso/top_banner.jpg) no-repeat center left;
+  background-size: cover;
 }
 
 /* contents! */
