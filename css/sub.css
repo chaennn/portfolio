@@ -78,7 +78,6 @@ header {
 }
 
 .home_btn {
-  /* border: 1px solid red; */
   width: 80px;
   height: 40px;
   font-size: 0.8rem;
@@ -91,11 +90,7 @@ header {
 .home_btn .home_arrow {
   width: 30px;
   position: relative;
-  /* animation: arrow 3s infinite linear; */
-  animation-name: arrow;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation: arrow 3s infinite linear;
 }
 
 @keyframes arrow {
@@ -109,17 +104,13 @@ header {
 
 .home_btn span {
   width: 30px;
-  height: 1px;
+  height: 2px;
   background-color: var(--dark-point-c);
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  transition: 0.3s;
+  transition: 0.25s;
 }
 
-.home_btn span:first-of-type {
-  transform: translateY(-50%);
-}
 .home_btn span:nth-of-type(2) {
   transform: rotate(-45deg);
 }
@@ -145,12 +136,12 @@ header {
 }
 
 .home_btn:hover span:nth-of-type(2) {
-  width: 15px;
-  transform: translateY(600%) rotate(45deg);
+  width: 18px;
+  transform: translateY(330%) translateX(-2px) rotate(45deg);
 }
 .home_btn:hover span:nth-of-type(3) {
-  width: 15px;
-  transform: translateY(-690%) rotate(-45deg);
+  width: 18px;
+  transform: translateY(-330%) translateX(-2px) rotate(-45deg);
 }
 .home_btn:hover span:last-of-type {
   opacity: 0;
@@ -198,8 +189,14 @@ header .dec li {
   font-size: 1rem;
 }
 
+header .site_con {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 header .site_con a {
-  padding: 0.6rem 5%;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 1rem;
   border: 1px solid var(--dark-c1);
   border-radius: 30px;
   margin-right: 3%;
@@ -484,7 +481,7 @@ header.pro3 .home_btn {
 }
 
 .pro3 .dec p {
-  color: #fdfdfd;
+  color: #c1c1c1;
 }
 
 .pro3 .site_con a {
@@ -664,13 +661,18 @@ footer .foot_bottom .next_page {
     font-size: 1rem;
   }
 
+  footer .sub_title > div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   /* 토프레소 */
 
   header.pro1 {
     background: url(../image/topresso/top_banner_m.jpg) no-repeat center;
     background-size: cover;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
   }
 
   @keyframes orange {

@@ -117,6 +117,12 @@ section {
 }
 
 .toggle_btn {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   top: 5%;
   right: 5%;
@@ -137,21 +143,17 @@ section {
   border-radius: 100%;
   background-color: var(--light-point-c);
   position: absolute;
-  top: 4px;
-  left: 36px;
+  top: 5px;
+  left: 57px;
 }
 
 .switch .switch_btn.on {
   background-color: var(--dark-point-c);
-  left: 4px;
+  left: 26px;
 }
 
 .toggle_btn p {
-  width: 200%;
-  font-size: 0.8vw;
-  position: absolute;
-  left: -40%;
-  bottom: -110%;
+  font-size: 14px;
 }
 
 /* page-nav */
@@ -176,9 +178,8 @@ section {
 }
 
 .fullpage-nav span:nth-of-type(2) {
-  content: "";
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border: 1px solid var(--light-c1);
   border-radius: 50%;
   margin: auto;
@@ -367,7 +368,7 @@ section {
 }
 
 .slide1 .icon dl {
-  padding: 1rem;
+  /* padding: 1rem; */
   margin-top: 1rem;
   display: flex;
   justify-content: center;
@@ -798,7 +799,6 @@ section {
 .section3 .box {
   width: 100%;
   height: auto;
-  /* position: relative; */
 }
 
 .section3 .box:nth-of-type(1) {
@@ -819,7 +819,6 @@ section {
 }
 
 .section3 .box .thumb {
-  height: 460px;
   padding: 15%;
   border: 1px solid var(--light-c1);
   background-color: var(--dark-c1);
@@ -840,7 +839,8 @@ section {
 }
 
 .section3 .box .tags span {
-  padding: 3px 14px;
+  padding: 2px 16px;
+  margin-right: 5px;
   border: 1px solid var(--light-c1);
   border-radius: 90px;
   font-size: 12px;
@@ -967,7 +967,7 @@ section {
   }
 
   .fullpage-nav {
-    right: 5%;
+    right: 8%;
   }
 
   .banner_video video {
@@ -993,11 +993,10 @@ section {
   }
 
   .section2 .slide1 .li_inner {
-    width: 90% !important;
+    width: 100% !important;
   }
 
   .slide1 li:first-of-type .li_inner {
-    width: 50%;
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
@@ -1075,6 +1074,23 @@ section {
     margin-top: 10%;
   }
 
+  .section3 .box .dec {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .section3 .box .tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+  }
+
+  .section3 .box .tags span {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   /* sec4 */
 
   .section4::before {
@@ -1085,6 +1101,10 @@ section {
   .section4 .sec4_inner {
     width: 100%;
   }
+  .section4 .contact > a {
+    font-size: 5vw;
+  }
+
   .section4 .cont_icon a {
     width: 10%;
   }

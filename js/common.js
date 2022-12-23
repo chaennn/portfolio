@@ -32,29 +32,33 @@ window.addEventListener("scroll", function () {
 
   if (scrollTop >= 0 && scrollTop < ht * 1) {
     $pageCurrent.innerText = `01`;
-    $pageCurrent.classList.remove("on");
-    $page_total.classList.remove("on");
-    $goTop_btn.classList.remove("on");
+    removeOn();
   }
   if (scrollTop >= ht * 1 && scrollTop < ht * 2) {
     $pageCurrent.innerText = `02`;
-    $pageCurrent.classList.remove("on");
-    $page_total.classList.remove("on");
-    $goTop_btn.classList.remove("on");
+    removeOn();
   }
   if (scrollTop >= ht * 2 && scrollTop < ht * 3) {
     $pageCurrent.innerText = `03`;
-    $pageCurrent.classList.remove("on");
-    $page_total.classList.remove("on");
-    $goTop_btn.classList.remove("on");
+    removeOn();
   }
   if (scrollTop >= ht * 3 && scrollTop < ht * 4) {
     $pageCurrent.innerText = `04`;
+    removeOn();
+  }
+  if (scrollTop >= ht * 3 && scrollTop < ht * 4) {
+    $pageCurrent.classList.add("on");
+    $page_total.classList.add("on");
+    $goTop_btn.classList.add("on");
+  }
+
+  function removeOn() {
     $pageCurrent.classList.remove("on");
     $page_total.classList.remove("on");
     $goTop_btn.classList.remove("on");
   }
-  if (scrollTop >= ht * 3 && scrollTop < ht * 4) {
+
+  function addOn() {
     $pageCurrent.classList.add("on");
     $page_total.classList.add("on");
     $goTop_btn.classList.add("on");
@@ -98,5 +102,3 @@ var swiper = new Swiper(".slide1", {
     clickable: true,
   },
 });
-
-AOS.init();
