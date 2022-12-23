@@ -141,8 +141,7 @@ header {
 }
 
 .home_btn:hover .home_arrow {
-  animation-play-state: paused;
-  transform: rotate(0deg);
+  animation: none;
 }
 
 .home_btn:hover span:nth-of-type(2) {
