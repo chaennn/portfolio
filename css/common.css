@@ -312,6 +312,7 @@ section {
 
 .slide1 .swiper-scrollbar {
   width: 50%;
+  height: 2px;
   left: 50%;
   transform: translateX(-50%);
   opacity: 1 !important;
@@ -634,7 +635,7 @@ section {
   background-size: cover;
   position: absolute;
   top: 0;
-  left: 3%;
+  left: 2.5%;
   animation: smallAni 2s infinite linear;
 }
 

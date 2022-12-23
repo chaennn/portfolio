@@ -85,6 +85,7 @@ document.oncontextmenu = function () {
   return false;
 };
 
+//sec2 슬라이드
 var swiper = new Swiper(".slide1", {
   slidesPerView: "auto",
   centeredSlides: true,

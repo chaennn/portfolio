@@ -67,12 +67,91 @@ img {
 /* 공통 header */
 header {
   height: 700px;
+  padding-top: 5%;
   background-size: cover;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   padding-left: 10%;
   position: relative;
   z-index: 1;
+}
+
+.home_btn {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.home_btn .home_arrow {
+  width: 30px;
+  position: relative;
+  /* animation: arrow 3s infinite linear; */
+  animation-name: arrow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes arrow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.home_btn span {
+  width: 30px;
+  height: 1px;
+  background-color: var(--dark-point-c);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.3s;
+}
+
+.home_btn span:first-of-type {
+  transform: translateY(-50%);
+}
+.home_btn span:nth-of-type(2) {
+  transform: rotate(-45deg);
+}
+.home_btn span:nth-of-type(3) {
+  transform: rotate(45deg);
+}
+
+.home_btn span:last-of-type {
+  transform: rotate(90deg);
+}
+
+.home_btn a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: transparent;
+}
+
+.home_btn:hover .home_arrow {
+  animation-play-state: paused;
+}
+
+.home_btn:hover span:nth-of-type(2) {
+  width: 15px;
+  transform: translateY(600%) rotate(45deg);
+}
+.home_btn:hover span:nth-of-type(3) {
+  width: 15px;
+  transform: translateY(-690%) rotate(-45deg);
+}
+.home_btn:hover span:last-of-type {
+  opacity: 0;
 }
 
 header .banner_txt {
