@@ -20,6 +20,7 @@ html {
 body {
   cursor: none;
   color: var(--dark-c1);
+  word-break: keep-all;
 }
 
 .wrap {
@@ -75,6 +76,7 @@ header {
   padding-left: 10%;
   position: relative;
   z-index: 1;
+  background-attachment: fixed;
 }
 
 .home_btn {
@@ -277,6 +279,7 @@ footer .foot_bottom a {
   position: absolute;
   top: 0;
   left: 0;
+
   transition: 1s;
 }
 
@@ -286,6 +289,7 @@ footer .prev_page a::before {
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 footer .next_page a::before {
@@ -294,6 +298,7 @@ footer .next_page a::before {
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 footer .foot_bottom a:hover {
@@ -455,6 +460,167 @@ footer.pro1 .foot_bottom .next_page {
   background-size: cover;
 }
 
+/* 리얼후르츠 */
+header.pro2 {
+  background: url(../image/real_fruit/real_fruit_head.jpg) no-repeat top left;
+}
+
+/* sub2 contents! */
+.contents.pro2 h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.contents.pro2 .txt_con {
+  padding-top: 130px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.contents.pro2 .txt_con::before {
+  content: "";
+  width: 160%;
+  height: 390px;
+  background-color: #ffedbf;
+  position: absolute;
+  top: 0;
+  left: -50%;
+}
+
+.contents.pro2 .big_txt {
+  width: 45%;
+  font-size: 2.2rem;
+  font-weight: lighter;
+}
+
+.contents.pro2 .sub_txt {
+  width: 45%;
+}
+
+.contents.pro2 .style_guide {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contents.pro2 h3 {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.contents.pro2 .style_guide h4 {
+  margin-bottom: 2.2rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.contents.pro2 .colors_palett ul {
+  position: relative;
+  height: 110px;
+}
+
+.contents.pro2 .colors_palett li {
+  position: absolute;
+  transition: 0.3s;
+}
+
+.contents.pro2 .colors_palett li:nth-of-type(2) {
+  left: 50px;
+}
+.contents.pro2 .colors_palett li:nth-of-type(3) {
+  left: 100px;
+}
+.contents.pro2 .colors_palett li:last-of-type {
+  left: 150px;
+}
+
+.contents.pro2 .colors_palett li span {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #2e2d71;
+  display: inline-block;
+}
+
+.contents.pro2 .colors_palett li:nth-of-type(2) span {
+  background-color: #fdf2e3;
+}
+.contents.pro2 .colors_palett li:nth-of-type(3) span {
+  background-color: #ffedbf;
+}
+.contents.pro2 .colors_palett li:last-of-type span {
+  background-color: #ed5f2a;
+}
+
+.contents.pro2 .colors_palett p {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.contents.pro2 .colors_palett li:hover p {
+  opacity: 1;
+}
+
+.contents.pro2 .renewal {
+  margin-top: 120px;
+}
+
+.contents.pro2 .detail {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contents.pro2 .detail > * {
+  width: calc(100% / 2);
+}
+
+.contents.pro2 .detail p {
+  margin-left: 5%;
+}
+
+.contents.pro2 .detail:nth-of-type(2) {
+  flex-direction: row-reverse;
+}
+
+.contents.pro2 .detail:last-of-type {
+  flex-direction: row-reverse;
+}
+
+.contents.pro2 .detail:nth-of-type(2) p {
+  margin-right: 5%;
+}
+
+.contents.pro2 .detail:last-of-type p {
+  margin-right: 5%;
+}
+
+.contents.pro2 .detail_txt span {
+  margin-bottom: 5%;
+  color: #888;
+  display: block;
+}
+
+footer.pro2 {
+  background-color: #ff584e;
+  color: var(--dark-c1);
+}
+
+footer.pro2 .foot_bottom .prev_page {
+  background: url(../image/mockup/project1.jpg) no-repeat center;
+  background-size: cover;
+}
+
+footer.pro2 .foot_bottom .next_page {
+  background: url(../image/mockup/project3.jpg) no-repeat center;
+  background-size: cover;
+}
+
 /* 아트허브 */
 
 header.pro3 {
@@ -494,7 +660,17 @@ header.pro3 .home_btn {
   color: var(--dark-c1);
 }
 
-/* sub2 contents! */
+.contents.pro2 .typo_txt p {
+  margin-bottom: 1rem;
+}
+
+.contents.pro2 .typo_txt span {
+  color: #888;
+  font-size: 0.9rem;
+  display: block;
+}
+
+/* sub3 contents! */
 .contents.pro3 h3 {
   font-size: 2.2rem;
   font-weight: bold;
@@ -506,7 +682,6 @@ header.pro3 .home_btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  word-break: keep-all;
 }
 
 .contents.pro3 .big_txt {
@@ -556,6 +731,16 @@ header.pro3 .home_btn {
 
 .contents.pro3 .style_guide .style_con > * {
   width: 30%;
+}
+
+.contents.pro3 .style_con .typo_txt p {
+  margin-bottom: 1rem;
+}
+
+.contents.pro3 .style_con .typo_txt span {
+  color: #888;
+  font-size: 0.9rem;
+  display: block;
 }
 
 .contents.pro3 .colors_palett ul {
@@ -653,6 +838,9 @@ footer .foot_bottom .next_page {
 /***** 반응형 *****/
 
 @media (max-width: 600px) {
+  header {
+    padding-top: 10%;
+  }
   .banner_txt {
     width: 100% !important;
   }
@@ -694,7 +882,6 @@ footer .foot_bottom .next_page {
     width: 70%;
     margin: auto;
     margin-top: 40px;
-    word-break: keep-all;
   }
 
   .pro1 .style_guide h3 {
@@ -738,6 +925,55 @@ footer .foot_bottom .next_page {
   .pro1 .renewal .renewal_txt {
     width: 100%;
     margin-bottom: 40px;
+  }
+
+  /* 리얼후르츠 */
+
+  header.pro2 {
+    background: url(../image/real_fruit/real_fruit_head-m.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  header.pro2 .site_con a {
+    border: none;
+    background-color: var(--light-c1);
+    color: var(--dark-c1);
+  }
+
+  .contents.pro2 .txt_con {
+    padding-top: 80px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contents.pro2 .txt_con::before {
+    content: "";
+
+    height: 520px;
+  }
+
+  .contents.pro2 .big_txt {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .contents.pro2 .sub_txt {
+    width: 100%;
+  }
+
+  .contents.pro2 .style_guide > div {
+    margin-bottom: 60px;
+  }
+
+  .contents.pro2 .detail {
+    flex-direction: column !important;
+    margin-bottom: 120px;
+  }
+
+  .contents.pro2 .detail > * {
+    width: 100%;
   }
 
   /* 아트허브 */

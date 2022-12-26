@@ -43,13 +43,7 @@ window.addEventListener("scroll", function () {
     removeOn();
   }
   if (scrollTop >= ht * 3 && scrollTop < ht * 4) {
-    $pageCurrent.innerText = `04`;
-    removeOn();
-  }
-  if (scrollTop >= ht * 3 && scrollTop < ht * 4) {
-    $pageCurrent.classList.add("on");
-    $page_total.classList.add("on");
-    $goTop_btn.classList.add("on");
+    addOn();
   }
 
   function removeOn() {
@@ -66,7 +60,7 @@ window.addEventListener("scroll", function () {
 });
 
 //toggle button
-const $switch = document.querySelector(".switch");
+const $switch = document.querySelector(".toggle_btn");
 const $btn = document.querySelector(".switch_btn");
 const $light_p = document.querySelector(".light_p");
 const $dark_p = document.querySelector(".dark_p");
