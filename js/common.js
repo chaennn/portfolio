@@ -1,27 +1,3 @@
-//mouse pointer
-const $body = document.documentElement;
-const $cursor = document.querySelector(".cursor");
-
-$body.addEventListener("mousemove", function (e) {
-  let x = e.pageX - 12;
-  let y = e.pageY - 12;
-  $cursor.style.cssText = `left:${x}px; top:${y}px`;
-});
-
-//a태그 hover 디자인 변경
-const $elm = document.querySelectorAll("a");
-
-$elm.forEach(function (item, idx) {
-  item.addEventListener("mouseenter", function () {
-    let style = item.getAttribute("data-style");
-    $cursor.classList.add(style);
-  });
-  item.addEventListener("mouseleave", function () {
-    let style = item.getAttribute("data-style");
-    $cursor.classList.remove(style);
-  });
-});
-
 //scroll event
 window.addEventListener("scroll", function () {
   let scrollTop = window.scrollY;
@@ -77,11 +53,6 @@ $switch.addEventListener("click", function () {
   git_icon1.classList.toggle("on");
   git_icon2.classList.toggle("on");
 });
-
-//우클릭 방지
-document.oncontextmenu = function () {
-  return false;
-};
 
 //sec2 슬라이드
 var swiper = new Swiper(".slide1", {
