@@ -5,21 +5,27 @@ window.addEventListener("scroll", function () {
   let $pageCurrent = document.querySelector(".page-current");
   let $page_total = document.querySelector(".page-total");
   let $goTop_btn = document.querySelector(".goTop_btn");
+  let $bg1_1 = document.querySelector(".bg1");
+  let $bg2_2 = document.querySelector(".bg2");
 
   if (scrollTop >= 0 && scrollTop < ht * 1) {
     $pageCurrent.innerText = `01`;
     removeOn();
+    aniStop();
   }
   if (scrollTop >= ht * 1 && scrollTop < ht * 2) {
     $pageCurrent.innerText = `02`;
     removeOn();
+    aniStop();
   }
   if (scrollTop >= ht * 2 && scrollTop < ht * 3) {
     $pageCurrent.innerText = `03`;
     removeOn();
+    aniStop();
   }
   if (scrollTop >= ht * 3 && scrollTop < ht * 4) {
     addOn();
+    aniPlay();
   }
 
   function removeOn() {
@@ -32,6 +38,16 @@ window.addEventListener("scroll", function () {
     $pageCurrent.classList.add("on");
     $page_total.classList.add("on");
     $goTop_btn.classList.add("on");
+  }
+
+  function aniPlay() {
+    $bg1_1.classList.add("on");
+    $bg2_2.classList.add("on");
+  }
+
+  function aniStop() {
+    $bg1_1.classList.remove("on");
+    $bg2_2.classList.remove("on");
   }
 });
 
