@@ -7,7 +7,7 @@
 > **👌Skills**
 
    <div align="center">
-   <ul>
+   <ul align="left">
     Markup
    <li>
    HTML5
@@ -22,7 +22,7 @@
   jQuery
    </li>
    </ul>
-      <ul>
+      <ul align="center">
     Markup
    <li>
    HTML5
@@ -37,7 +37,7 @@
   jQuery
    </li>
    </ul>
-      <ul>
+      <ul align="right">
     Markup
    <li>
    HTML5
