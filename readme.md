@@ -7,37 +7,7 @@
 > **👌Skills**
 
    <div align="center">
-   <ul align="left">
-    Markup
-   <li>
-   HTML5
-   </li>
-   <li>
-   CSS3
-   </li>
-   <li>
-   JAVA Script
-   </li>
-   <li>
-  jQuery
-   </li>
-   </ul>
-      <ul align="center">
-    Markup
-   <li>
-   HTML5
-   </li>
-   <li>
-   CSS3
-   </li>
-   <li>
-   JAVA Script
-   </li>
-   <li>
-  jQuery
-   </li>
-   </ul>
-      <ul align="right">
+   <ul>
     Markup
    <li>
    HTML5
