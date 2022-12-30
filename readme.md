@@ -34,4 +34,6 @@
     <img src="https://img.shields.io/badge/Easter%20Egg-FFCD00?style=flat-square&logo=KakaoTalk&logoColor=white"/>
 </p>
 
-[🐾포트폴리오 바로가기🐾](https://chaennn.github.io/portfolio/)
+## <br>
+
+<p align="center">[🐾포트폴리오 바로가기🐾](https://chaennn.github.io/portfolio/)</p>
