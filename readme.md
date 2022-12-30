@@ -7,21 +7,13 @@
 > **👌Skills**
 
    <div align="center">
-   <ul>
-    Markup
-   <li>
-   HTML5
-   </li>
-   <li>
-   CSS3
-   </li>
-   <li>
-   JAVA Script
-   </li>
-   <li>
-  jQuery
-   </li>
-   </ul>
+- Markup
+   -HTML5
+   -CSS3
+   -JAVA Script
+   -jQuery
    </div>
-
 [포트폴리오 바로가기](https://chaennn.github.io/portfolio/)
+<img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
+#FF9A00
+<img src="https://img.shields.io/badge/CSS3-FF9A00?style=flat-square&logo=HTML5&logoColor=white"/>
