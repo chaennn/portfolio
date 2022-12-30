@@ -41,7 +41,4 @@
        <a href="mailto:girmn22@gmail.com"><img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white"/></a>&nbsp;
       <img src="https://img.shields.io/badge/-FFCD00?style=flat-square&logo=KakaoTalk&logoColor=white"/>
 </p>
-
-## <br>
-
 </div>
