@@ -1,6 +1,6 @@
 <h2 align="center">Hello, I'm ChaeEun🙃</h2>
 <div align="center">
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23A0A0A0&title_bg=%23FFFFFF&icon=github.svg&icon_color=%23A0A0A0&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23A0A0A0&title_bg=%23FFFFFF&icon=github.svg&icon_color=%23A0A0A0&title=hits&edge_flat=true"/></a>
 </div>
 
 <h3 align="center">✒ Skills ✒</h3>
