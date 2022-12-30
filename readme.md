@@ -16,4 +16,5 @@
 [포트폴리오 바로가기](https://chaennn.github.io/portfolio/)
 <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
 #FF9A00
-<img src="https://img.shields.io/badge/CSS3-FF9A00?style=flat-square&logo=HTML5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS5&logoColor=white"/>
+#1572B6
