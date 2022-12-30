@@ -1,44 +1,40 @@
-<div align="center">
+# portfolio
 
-# Hello, I'm ChaeEun🙃
+_ⓒ Chaen hhh 2022_
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fchaennn%2Fportfolio&count_bg=%23A1A1A1&title_bg=%23FFFFFF&icon=github.svg&icon_color=%23A1A1A1&title=hits&edge_flat=false)](https://github.com/chaennn/portfolio)
+## Description
 
-<br>
+> 2022.12 ~ 🔥
 
-### ✒ Skills ✒
-
-**Markup**
-
-<img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>&nbsp;
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>&nbsp;
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>&nbsp;
-<img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"/></a>
+> - 기획
+> - 디자인
+> - 퍼블리싱
 
 <br>
 
-**Prototype**
+### Contests
 
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/>&nbsp;
-<img src="https://img.shields.io/badge/Sketch-F7B500?style=flat-square&logo=Sketch&logoColor=white"/>&nbsp;
-<img src="https://img.shields.io/badge/XD-FF61F6?style=flat-square&logo=Adobe%20XD&logoColor=white"/>
-
-<br>
-
-**Graphic Tool**
-
-<img src="https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=Adobe%20Photoshop&logoColor=white"/>&nbsp;
-<img src="https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=Adobe%20Illustrator&logoColor=white"/>
+- Intro
+- About
+  - skills
+- Work
+  - project1 (토프레소)
+  - project2 (리얼후르츠)
+  - project3 (아트허브)
+- Contact
 
 ## <br>
 
-### 🍏 About 🍏
+**📌section1**
+![image](https://user-images.githubusercontent.com/117888172/210032184-4108466a-73e0-4afd-9929-7e54f0b6b201.png)
+
+**📌section2**
+![image](https://user-images.githubusercontent.com/117888172/210032624-a5598e1e-fb2a-4a90-bd9f-7187ddbda385.png)
+
+**📌section3**
+![image](https://user-images.githubusercontent.com/117888172/210032954-083d5822-f8c6-4a70-ba2b-df2e87c909a9.png)
+
+**📌section4**
+![image](https://user-images.githubusercontent.com/117888172/210032971-c269301e-7110-43d2-b3ed-a1dd5d03f447.png)
 
 <br>
-
-<p align="center">
-     <a href="mailto:girmn22@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a> &nbsp;
-       <a href="mailto:girmn22@gmail.com"><img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white"/></a>&nbsp;
-      <img src="https://img.shields.io/badge/-FFCD00?style=flat-square&logo=KakaoTalk&logoColor=white"/>
-</p>
-</div>
