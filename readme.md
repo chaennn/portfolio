@@ -30,7 +30,7 @@
 <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=Adobe%20Photoshop&logoColor=white"/>&nbsp;
 <img src="https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=Adobe%20Illustrator&logoColor=white"/>
 
-<br>
+\*\*\* <br>
 
 ### 🍏 About 🍏
 
