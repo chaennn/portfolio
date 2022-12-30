@@ -36,4 +36,4 @@
 
 ## <br>
 
-<p align="center">[🐾포트폴리오 바로가기🐾](https://chaennn.github.io/portfolio/)</p>
+[🐾](https://chaennn.github.io/portfolio/)
