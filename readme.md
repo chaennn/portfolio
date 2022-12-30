@@ -6,7 +6,7 @@
 
 <br>
 
-## ✒ Skills ✒
+### ✒ Skills ✒
 
 **Markup**
 
@@ -32,7 +32,7 @@
 
 <br>
 
-## 🍏 About 🍏
+### 🍏 About 🍏
 
 <br>
 
