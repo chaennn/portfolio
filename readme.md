@@ -1,4 +1,7 @@
 <h2 align="center">Hello, I'm ChaeEun🙃</h2>
+<div align="center">
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23A0A0A0&title_bg=%23FFFFFF&icon=github.svg&icon_color=%23A0A0A0&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
+</div>
 
 <h3 align="center">✒ Skills ✒</h3>
 <p align="center"> Markup</p>
@@ -31,7 +34,7 @@
 <p align="center">
     <a href="mailto:girmn22@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>&nbsp;
     <a href="mailto:girmn22@gmail.com"><img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white"/></a>&nbsp;
-    <img src="https://img.shields.io/badge/Easter%20Egg-FFCD00?style=flat-square&logo=KakaoTalk&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-FFCD00?style=flat-square&logo=KakaoTalk&logoColor=white"/>
 </p>
 
 ## <br>
