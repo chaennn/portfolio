@@ -36,9 +36,9 @@ console.log(
   +#+    +#+  +#+         +#+         +#+         +#+    +#+ 
   #+#    #+#  #+#         #+#         #+#         #+#    #+# 
   ###    ###  ##########  ##########  ##########   ########                                             
-`
+  
+  https://github.com/chaennn
+  `
 );
 
-console.log(
-  `카카오톡 오픈프로필 입니다. 용건이 있으시면 연락주세요:) https://open.kakao.com/o/s0l9oyWe`
-);
+console.log(`용건이 있으시면 연락주세요:) https://open.kakao.com/o/s0l9oyWe`);
