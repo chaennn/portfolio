@@ -10,8 +10,6 @@ _ⓒ Chaen hhh 2022_
 > - 디자인
 > - 퍼블리싱
 
-<br>
-
 ### Contests
 
 - Intro
